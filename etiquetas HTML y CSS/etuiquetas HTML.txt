@@ -1,0 +1,8 @@
+meta name="author"content="nombre autor": para meter un autor del contenido
+meta 
+
+p: sirve para generar un parrafo
+b: sirve para copiar algo en negrilla no es como un parrafo
+br: para hacer un salto de linea
+strong: sirve para poner un conjunto de letras en negrilla
+em: sirve para poner un conjunto de letras en cursiva
