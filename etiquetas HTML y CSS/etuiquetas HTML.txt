@@ -1,8 +1,49 @@
-meta name="author"content="nombre autor": para meter un autor del contenido
-meta 
+meta name="author"content="nombre autor">: para meter un autor del contenido
+meta name="description" content="descripcion de la pag">: descripcion de una pagina
+meta name="viewport" content="width=device-width,user-scalable=no">: adaptar en todos los dispocitivos
+
 
 p: sirve para generar un parrafo
 b: sirve para copiar algo en negrilla no es como un parrafo
 br: para hacer un salto de linea
 strong: sirve para poner un conjunto de letras en negrilla
 em: sirve para poner un conjunto de letras en cursiva
+h1-h6: sirve para tamaño de las letras siendo h1 el mas grande
+li: sirve para generar una lista depende de "ol" y "ul"
+ol: generador de listas organizadas debe ir acompañado de "li"
+ul: generador de listas desordenadas, debe ir acompañado de "li"
+<img src="rutade la imagen" alt="descripcion imagen" width="ancho" height="altura">: para insertar una imagen normal recordar poner el ".png"
+
+----------------------------------------------------------------------------------
+<table border"1", cellpadding="10", cellspacing="0"> :iniciar una tabla
+	<thead>, <tbody>, <tfoot>: estos son los lugares para identificar las partes de la tabla
+		tr:generacion de una fila en una tabla
+			th:generacion de una columna en una tabla por lo general se utiliza con thead y tfoot
+			td:generacion de una columna en una tabla por lo general se utiliza con tbody
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+<form autocomplete="a:" name="nombre formulario">
+	<fieldset> :sirve para crear el recuadro que tendra el formulario (opcional)
+	<legend> :titulo en el fielset
+		inputs
+		.
+		.	
+		inputs
+a: on, off.
+inputs: son items para generar formularios, visualizarlos en el index.html
+-----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
+<a href="ruta del enlace" target="a:">Nombre Enlace</a> :crear enlaces en la pagina web que lleve a otros lugares
+
+a:
+_blank: pasar a la otra pagina creando una nueva pestaña en el navegador
+_parent: se cargara en la ventana padre, esto en caso de estar usando un frame
+_sefl: la pagina se cargara en la ventana en la que cargas la pagina
+_top: genera el mismo resultado de parent pues carga en su superior o padre
+----------------------------------------------------------------------------------
+
+
+
+
