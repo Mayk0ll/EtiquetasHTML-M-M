@@ -37,12 +37,81 @@ inputs: son items para generar formularios, visualizarlos en el index.html
 -----------------------------------------------------------------------------------
 <a href="ruta del enlace" target="a:">Nombre Enlace</a> :crear enlaces en la pagina web que lleve a otros lugares
 
+mailto//<a href="mailto:vasquezloperamichael@gmail.com?subject=Ayudame" target="_blank">|Contacto|</a> :link para enviar correos a cierto email
+
 a:
 _blank: pasar a la otra pagina creando una nueva pestaña en el navegador
 _parent: se cargara en la ventana padre, esto en caso de estar usando un frame
 _sefl: la pagina se cargara en la ventana en la que cargas la pagina
 _top: genera el mismo resultado de parent pues carga en su superior o padre
 ----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+<audio src="ruta del enlace" controls autoplay(opcional) preload="a"></audio>: reproducir un audio
+
+a.
+auto: para cargar el video mientras se espera el click para reproducrice
+none: para no cargar hasta dar click en reprocducir el archivo
+metadata: 
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+<video src="ruta enlace video"controls autoplay poster="ruta del enlace a:" width="100%" height="100%">: poner solo 1 video sin otro no olvidar el .mp4
+<video controls autoplay poster="ruta del enlace a:" width="100%" height="100%">: reproducir un video con diferentes versiones source
+	<source src="videoo/video.mp4" type="video/mp4">
+	<source src="videoo/video.wmp" type="video/wmp">
+
+a:enlace de imagen en caso de que falle
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+<iframe src="ruta URL de otra pag" width="300px" height="400px" sandbox="a:"></iframe>: añadir en un trozo de pagina otra pagina
+
+a.
+allow-scripts: habilitar todos los scrips, sean microfono, camara, etc
+allow-forms: habilita los formularios en la otra pagina
+allow-same-origin:
+allow-top-navigation:
+----------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+<svg width="500px" height="500px" viewBox="0 0 300 500" style="border: 2px solid black;">: crear un espacio para ciertos objetivos
+	<image  width="300px" height="500px" xlink:href="ruta de la imagen"></image>: insertar una imagen .svg
+
+viewBox="a. b. c. d." 
+a. valor X en cierta pocicion de un plano carteciano
+b. valor Y en cierta pocicion de un plano carteciano
+c. valor ancho de su tamaño
+d. valor largo de su tamaño
+
+g: para hacer agrupaciones
+<g id="puto" stroke="black" stroke-width="1">: todo lo que este entre el inicio y el final de esta fila, es un cambio para la agrupacion
+          <circle cx="100" cy="100"  r="100" fill="#eeeeee (color)"/>
+          <line x1="100" y1="10" x2="100" y2="0"/>
+          <line x1="150" y1="13" x2="145" y2="22"/> : recordar que cada item debe terminar en "/>"
+</g>
+
+
+defs: sirve para que el contenido sea llamado
+<defs>
+  <linearGradient id="Gradiente1">
+     <stop offset="20%" stop-color="#39F" />
+     <stop offset="90%" stop-color="#F3F" />
+     <rect id="Recta" fill="red" stroke="Black" stroke-width="3" width="100px" height="100px">: referencia para la etiqueta "use"
+  </linearGradient>
+</defs>
+<circle cx="100" cy="100"  r="100" fill="#url(#Gradiente1)"/>: llamar el codigo en defs
+
+<use x="200" y="200" xlink:href="#Recta">: siempre debe utilizarce con un defs
+<use x="400" y="200" xlink:href="#Recta">
+---------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------
+
+
+
+
+
 
 
 
