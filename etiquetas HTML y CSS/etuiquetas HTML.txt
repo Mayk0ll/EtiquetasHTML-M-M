@@ -12,6 +12,7 @@ h1-h6: sirve para tamaño de las letras siendo h1 el mas grande
 li: sirve para generar una lista depende de "ol" y "ul"
 ol: generador de listas organizadas debe ir acompañado de "li"
 ul: generador de listas desordenadas, debe ir acompañado de "li"
+span: dividir una cantidad de informacion de un parrafo para darle ciertas caracteristicas
 <img src="rutade la imagen" alt="descripcion imagen" width="ancho" height="altura">: para insertar una imagen normal recordar poner el ".png"
 
 ----------------------------------------------------------------------------------
@@ -108,8 +109,15 @@ defs: sirve para que el contenido sea llamado
 
 ----------------------------------------------------------------------------------
 
-
-
+CSS
+--------------------------------------------------------------------------------
+p{ : puede ser cualquier etiqueta que contenga texto
+color: red; // color para la letra
+font-family: helvetica: //tipo de letra
+font-size: 5px; // tamaño de la letra
+background-color: pink; // sirve para añadir un color en el fondo
+border-radius: 5px;//añade un borde redondeado en las imagenes
+}
 
 
 
