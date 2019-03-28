@@ -53,7 +53,7 @@ _top: genera el mismo resultado de parent pues carga en su superior o padre
 a.
 auto: para cargar el video mientras se espera el click para reproducrice
 none: para no cargar hasta dar click en reprocducir el archivo
-metadata: 
+metadata:  hace es carga la informacion del video, como lo puede ser la duracion, la resolucion de la imagen y el primer frame o escena
 ----------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------
@@ -71,8 +71,8 @@ a:enlace de imagen en caso de que falle
 a.
 allow-scripts: habilitar todos los scrips, sean microfono, camara, etc
 allow-forms: habilita los formularios en la otra pagina
-allow-same-origin:
-allow-top-navigation:
+allow-same-origin: es cuando se esta realizando pruebas en localmente en un servidor, puedes ser xampp, hay paginas que cuando se abren desde un servidor local no cargan
+allow-top-navigation:permieta la nevagacion ancha (enlaces a ids de elementos en la pagina)
 ----------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------------
@@ -113,11 +113,27 @@ CSS
 --------------------------------------------------------------------------------
 p{ : puede ser cualquier etiqueta que contenga texto
 color: red; // color para la letra
-font-family: helvetica: //tipo de letra
+font-family: helvetica; //tipo de letra
 font-size: 5px; // tamaño de la letra
 background-color: pink; // sirve para añadir un color en el fondo
 border-radius: 5px;//añade un borde redondeado en las imagenes
+text-align: center; // sirve para poner en el centro el texto
+margin-top: 20px; //permite generar un espacio
+padding-top: 20px; //margenes
+backgraund-color: color; //color de fondo
+list-style-type: circle;// cambia el señalador de forma
+text-decoration: underline; //sirve para crear una decoracion con un subrayado
+a[especificacion$="algo"]:visited  // cambiar color enlace cuando se visite
+a[especificacion$="algo"]:hover  //cuando se pasa el click sobre un enlace cambia de color
+p::first-letter //cambia la primera letra de un parrafo segun su informacion en las llaves
+p::first-line //cambia la primera linea de un parrafo segun su informacion en las llaves
+text-indent: 2cm; // mueve el valor que se da la primera fila del parrafo
+text-transform: capatalize  // cambia la primera letra de cada palabra en mayuscula
+letter-spacing: 5px; // espacio entre cada letra segun el valor
+word-spacing: 10px; // espacio entre cada palabra
+
 }
+
 
 
 
