@@ -131,10 +131,29 @@ text-indent: 2cm; // mueve el valor que se da la primera fila del parrafo
 text-transform: capatalize  // cambia la primera letra de cada palabra en mayuscula
 letter-spacing: 5px; // espacio entre cada letra segun el valor
 word-spacing: 10px; // espacio entre cada palabra
-
+white-space; // los espacios en blanco son mantenidos por el browser
 }
 
 
+--------------------------------------------------------------------------------------
+<figure>
+ <figcaption></figcaption>
+ img src="ruta de la imagen"/>
+</figure>
+--------------------------------------------------
+<picture>
+ source  media="(min-width: 768px)" srcset="ruta imagen de la resolucion.png"
+ source  media="(min-width: 480px)" srcset="ruta imagen de la resolucion.png"
+ img src="ruta de la imagen" alt="descripcion" />
+</picture>
+--------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------
+video src="linkvivideo"  //esto va sin tamaño 
+
+en la pagina de estilo.css se pone:
+video{ width=%; ademas se recomienda poner max-width: 100%; para que no supere el tamaño del navegador}
+--------------------------------------------------------------------------------------
 
 
 
